@@ -83,11 +83,26 @@ body {
     font-weight: 600;
 }
 
-.navigacija ul li{
+.navigacija ul li {
     padding-left: 5%;
     font-weight: 600;
 }
 
-.clanak tr td{
+.clanak {
+    width: 95%;
+}
+
+@media only screen and (min-width: 768px) {
+    .clanak {
+        width: 70%;
+    }
+}
+
+.clanak tr td {
     padding: 2%;
+}
+
+.footer-img {
+    height: 30px;
+    margin-left: 2%;
 }
